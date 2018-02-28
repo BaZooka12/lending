@@ -3,6 +3,7 @@ body {
    padding: 0; 
 }
 
+/* Header */
 .header-top {
     background-color: #f0f2f4;
     border-bottom: 2px solid #e2e2e2;
@@ -64,7 +65,7 @@ body {
     color: red;
 }
 
-.header-botton {
+.header-button {
     box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
     font-size: 16px;
@@ -75,8 +76,58 @@ body {
     border: 1px solid red;
     border-radius: 5px;
 }
-.header-botton a{
+.header-button a{
     text-decoration: none;
     color: white;
 }
 
+/* Banner */
+.banner {
+    height: 590px;
+    background: url(images/hero-bg.jpg);
+    background-size: cover;
+}
+
+.banner-wrapper {
+    width: 960px;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+     
+}
+
+.banner h2 {
+    margin: 0 auto;
+    color: white;
+    font-size: 45px;
+    line-height: 40px;
+    font-family: 'Karma', serif;
+}
+
+.banner p {
+    margin: 0 auto;
+    color: white;
+    font-size: 22px;
+    font-family: 'Karma', serif;
+    margin-bottom: 15px;
+}
+
+.banner-button {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+    background: yellow;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.banner-button a{
+    text-decoration: none;
+    color: white;
+}
